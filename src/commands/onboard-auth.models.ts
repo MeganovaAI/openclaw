@@ -157,6 +157,11 @@ export function buildZaiModelDefinition(params: {
   };
 }
 
+export const MEGANOVA_BASE_URL = "https://api.meganova.ai/v1";
+export const MEGANOVA_DEFAULT_MODEL_ID = "zai-org/GLM-5";
+export const MEGANOVA_DEFAULT_MODEL_REF = `meganova/${MEGANOVA_DEFAULT_MODEL_ID}`;
+export const MEGANOVA_DEFAULT_COST = { input: 0.8, output: 2.56, cacheRead: 0.8, cacheWrite: 2.56 };
+
 export const XAI_BASE_URL = "https://api.x.ai/v1";
 export const XAI_DEFAULT_MODEL_ID = "grok-4";
 export const XAI_DEFAULT_MODEL_REF = `xai/${XAI_DEFAULT_MODEL_ID}`;
